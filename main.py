@@ -49,8 +49,8 @@ class Portfolio:
 class Chain:
     def __init__(self):
         self.llm = ChatGoogleGenerativeAI(
-            model="models/gemini-1.5-flash",
-            google_api_key="AIzaSyDJYhML3m88RaFjhNbDhphdYEpyDk7cIyo"
+            model="models/gemini-2.0-flash",
+            google_api_key="AIzaSyByJw2XRlePo9JwUg4pMjeNlf2V7CVhFdQ"
         )
 
     def extract_jobs(self, cleaned_text):
